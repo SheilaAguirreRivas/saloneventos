@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Editar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header id="header"></header>
+
+  <main>
+    <div class="container">
+      <form style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">
+        <h2>Alta de Evento </h2>
+        <!--<p>valorSalon:{{valorSalon}}</p>-->
+        <div class="mb-3">
+          <label for="id">N° de Cliente</label>
+          <input type="number" name="id" id="id" disabled><!-- hidden -->
+        </div>
+        <div class="mb-3">
+          <label for="nombreApellido">Nombre y Apellido</label>
+          <input type="text" name="nombreApellido" id="nombreApellido">
+        </div>
+        <div class="mb-3">
+          <label for="fechaEvento">Fecha del Evento</label>
+          <input type="date" name="fechaEvento" id="fechaEvento">
+        </div>
+        <div class="mb-3">
+          <label for="numContacto">Numero de Contacto</label>
+          <input type="number" name="numContacto" id="numContacto">
+        </div>
+        <div class="mb-3">
+          <label for="tipoEvento">Tipo de Evento</label>
+          <input type="text" name="tipoEvento" id="tipoEvento">
+        </div>
+          <div class="mb-3">
+          <label for="valorSalon">Valor del Salon</label>
+          <input type="number" name="valorSalon" id="valorSalon">
+        </div>
+        <div class="mb-3">
+          <label for="cantInvitados">Cantidad de Invitados</label>
+          <input type="number" name="cantInvitados" id="cantInvitados">
+        </div>
+        <div class="mb-3">
+          <label for="responsable">Responsable</label>
+          <input type="text" name="responsable" id="responsable">
+        </div>
+        <button type="button" class="btn btn-success" onclick="modificar()">Guardar Cambios</button>
+        </form>
+      
+    </div>
+  </main>
+
+  <footer></footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  
+  <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="./js/evento_editar.js"></script>
+</body>
+
+</html>
