@@ -18,6 +18,8 @@ function guardar(){
     }
 
     let url = 'http://127.0.0.1:5000/eventos';
+    //'http://127.0.0.1:5000/eventos';
+    //'http://sheiaguirrer.pythonanywhere.com/eventos',
 
     let options ={
         body: JSON.stringify(evento),

@@ -40,6 +40,10 @@ function modificar(){
     }
 
     let url = 'http://127.0.0.1:5000/eventos/'+id;
+    //'http://127.0.0.1:5000/eventos/'+id;
+    //let url = 'http://sheiaguirrer.pythonanywhere.com/eventos'+id;
+
+
 
     let options ={
         body: JSON.stringify(evento),
