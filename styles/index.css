@@ -1,4 +1,4 @@
-/*body {
+body {
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,27 +13,31 @@
   
 .navbar-brand {
     font-family: "cookie", cursive;
-    font-size: 40px;
-    max-width: 200px;
+    font-size: 30px;
+    max-width: 100px;
   }
-  .container {
-    margin-top: 2rem;
-    
-  }
+
+  
+  
   
   .table-responsive {
     overflow-x: auto;
   }
+  .btn-success {
+    margin-bottom: 10px;
+  }
   
+  /*.container {
+    margin-top: 2rem;
+    
+  }*/
   
   h1 {
     font-size: 24px;
     font-weight: bold;
   }
   
-  .btn-success {
-    margin-bottom: 10px;
-  }
+  
   
   .spinner-container {
     display: flex;
@@ -91,4 +95,3 @@ form input::placeholder {
   color: #999;
   font-style: italic;
 }
-*/
