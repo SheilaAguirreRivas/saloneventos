@@ -4,7 +4,7 @@ createApp({
   data() {
     return {
       eventos: [],
-      url: 'http://127.0.0.1:5000/eventos',
+      url: 'https://sheiaguirrer.pythonanywhere.com/eventos',
       //'http://127.0.0.1:5000/eventos',
       //'http://sheiaguirrer.pythonanywhere.com/eventos';
       cargando: true,
